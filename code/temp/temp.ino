@@ -2,9 +2,9 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <DHT.h>
-char auth[] = "04c7fc74502048a3bfc7f859468fa0af";
-char ssid[] = "plant";
-char pass[] = "plant";
+char auth[] = "BLYNK AUTH";
+char ssid[] = "Wifi Name";
+char pass[] = "Password";
 
 #define DHTPIN 4          // What digital pin we're connected to D2
 #define DHTTYPE DHT11     // DHT 11
